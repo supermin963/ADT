@@ -46,6 +46,25 @@ mergesort(int a[];int n)
     }
 }
 
+int main(void)
+{
+    int i;
+    int a[10]={-1,5,2,4,6,7,48,5,0,3};
+    printf("排序前：\n");
+    for(i=1;i<10;i++)
+    {
+        printf("%d",a[i]);
+    }
+    mergesort(a,9);
+    printf("排序后：\n");
+    for(i=1;i<10;i++)
+    {
+        printf("%d",a[i]);
+    }
+    printf("\n\n\n");
+    return 0;
+}
+
 
 
 
