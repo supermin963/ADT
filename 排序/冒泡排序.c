@@ -1,4 +1,6 @@
 //码下
+//总体的思路就是将数组中的每一个元素都进行相互比较，
+//然后把最大的放到最后面就行了
 #include <stdio.h>
 void bubble_sort(int arr[], int len) {
     int i, j, temp;
